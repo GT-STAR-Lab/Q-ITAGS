@@ -1,0 +1,39 @@
+/*
+ * Graphically Recursive Simultaneous Task Allocation, Planning,
+ * Scheduling, and Execution
+ *
+ * Copyright (C) 2020-2022
+ *
+ * Author: Andrew Messing
+ * Author: Glen Neville
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+#pragma once
+
+// Global
+#include <string_view>
+
+namespace grstapse
+{
+    static constexpr std::string_view s_project_name = "@PROJECT_NAME@";
+    static constexpr std::string_view s_project_version = "@PROJECT_VERSION@";
+    static constexpr std::string_view s_git_hash = "@GIT_HASH@";
+    static constexpr int s_project_version_major { @PROJECT_VERSION_MAJOR@ };
+    static constexpr int s_project_version_minor { @PROJECT_VERSION_MINOR@ };
+    static constexpr int s_project_version_patch { @PROJECT_VERSION_PATCH@ };
+    static constexpr int s_project_version_tweak { @PROJECT_VERSION_TWEAK@ };
+    static constexpr std::string_view s_data_dir = "@DATA_DIR@";
+    static constexpr std::string_view s_python_embed_scripts_dir = "@PYTHON_EMBED_SCRIPTS_DIR@";
+}

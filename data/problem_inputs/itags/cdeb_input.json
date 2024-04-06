@@ -1,0 +1,101 @@
+{
+  "motion_planners":        [
+    {
+      "environment_parameters": {
+        "config_type":           "PgmOmplEnvironment",
+        "configuration_type":    "ompl",
+        "ompl_environment_type": "pgm",
+        "use_data_dir":          true,
+        "yaml_filepath":         "/geometric_planning/maps/road_map_zero.yaml"
+      },
+      "algorithm_parameters":   {
+        "config_type":           "OmplMotionPlannerParameters",
+        "ompl_mp_algorithm":     "prm",
+        "timeout":               0.1,
+        "simplify_path":         true,
+        "simplify_path_timeout": 0.1,
+        "connection_range":      1.0,
+        "configuration_type":    "ompl"
+      },
+      "config_type":            "OmplMotionPlanner"
+    }
+  ],
+  "species":                [
+    {
+      "name":            "Ambulance",
+      "traits":          [
+        1
+      ],
+      "bounding_radius": 0.2,
+      "speed":           0.2,
+      "mp_index":        0
+    }
+  ],
+  "robots":                 [
+    {
+      "name":                  "r0",
+      "initial_configuration": {
+        "configuration_type": "ompl",
+        "goal_type":          "state",
+        "state_space_type":   "se2",
+        "x":                  110.0,
+        "y":                  1712.0,
+        "yaw":                0.0
+      },
+      "species":               "Ambulance"
+    }
+  ],
+  "tasks":                  [
+    {
+      "name":                   "t0",
+      "duration":               0.1,
+      "desired_traits":         [
+        1
+      ],
+      "linear_quality_coefficients":         [0],
+      "initial_configuration":  {
+        "configuration_type": "ompl",
+        "goal_type":          "state",
+        "state_space_type":   "se2",
+        "x":                  1332.0,
+        "y":                  1666.0,
+        "yaw":                0.0
+      },
+      "terminal_configuration": {
+        "configuration_type": "ompl",
+        "goal_type":          "state",
+        "state_space_type":   "se2",
+        "x":                  1800.0,
+        "y":                  157.0,
+        "yaw":                0.0
+      },
+      "mp_index":               0
+    }
+  ],
+  "precedence_constraints": [
+  ],
+  "plan_task_indices":      [
+    0
+  ],
+  "use_reverse"      : false,
+  "max_schedule"     : 10000,
+  "itags_parameters":       {
+    "config_type":       "BestFirstSearchParameters",
+    "has_timeout":       false,
+    "timeout":           600,
+    "timer_name":        "itags",
+    "prune_before_eval": true,
+    "save_pruned_nodes": false,
+    "save_closed_nodes": false
+  },
+  "scheduler_parameters":   {
+    "config_type":                           "DeterministicMilpSchedulerParameters",
+    "scheduler_type":                        "milp",
+    "milp_scheduler_type":                   "deterministic",
+    "timeout":                               1.0,
+    "threads":                               0,
+    "compute_transition_duration_heuristic": true,
+    "use_hierarchical_objective":            false,
+    "mip_gap":                               0.05
+  }
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "environment_parameters": {
+      "configuration_type": "graph",
+      "graph_type":         "euclidean",
+      "use_data_dir":       true,
+      "graph_filepath":     "/geometric_planning/environments/polypixel_sampled_10.json"
+    },
+    "algorithm_parameters":   {
+      "config_type":          "EuclideanGraphMotionPlannerParameters",
+      "timeout":              1.0,
+      "configuration_type":   "graph",
+      "graph_type":           "euclidean",
+      "euclidean_graph_type": "sampled",
+      "is_complete":          true
+    },
+    "config_type":            "CompleteSampledEuclideanGraphMotionPlanner"
+  }
+]

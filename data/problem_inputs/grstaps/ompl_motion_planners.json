@@ -1,0 +1,40 @@
+[
+  {
+    "environment_parameters": {
+      "config_type":           "PgmOmplEnvironment",
+      "configuration_type":    "ompl",
+      "ompl_environment_type": "pgm",
+      "use_data_dir":          true,
+      "yaml_filepath":         "/geometric_planning/maps/empty.yaml"
+    },
+    "algorithm_parameters":   {
+      "config_type":           "OmplMotionPlannerParameters",
+      "ompl_mp_algorithm":     "prm",
+      "timeout":               1.0,
+      "simplify_path":         false,
+      "simplify_path_timeout": -1.0,
+      "connection_range":      0.1,
+      "configuration_type":    "ompl"
+    },
+    "config_type":            "OmplMotionPlanner"
+  },
+  {
+    "environment_parameters": {
+      "config_type":           "PgmOmplEnvironment",
+      "configuration_type":    "ompl",
+      "ompl_environment_type": "pgm",
+      "use_data_dir":          true,
+      "yaml_filepath":         "/geometric_planning/maps/empty.yaml"
+    },
+    "algorithm_parameters":   {
+      "config_type":           "OmplMotionPlannerParameters",
+      "ompl_mp_algorithm":     "rrt",
+      "timeout":               1.0,
+      "simplify_path":         true,
+      "simplify_path_timeout": 1.0,
+      "connection_range":      0.1,
+      "configuration_type":    "ompl"
+    },
+    "config_type":            "OmplMotionPlanner"
+  }
+]

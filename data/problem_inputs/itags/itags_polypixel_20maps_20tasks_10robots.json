@@ -1,0 +1,605 @@
+{
+  "motion_planners":      [
+    {
+      "environment_parameters": {
+        "config_type":          "CompleteSampledEuclideanGraphEnvironment",
+        "configuration_type":   "graph",
+        "graph_type":           "euclidean",
+        "euclidean_graph_type": "sampled",
+        "is_complete":          true,
+        "use_data_dir":         true,
+        "graph_filepath":       "/geometric_planning/maps/polypixel_sampled_20.json"
+      },
+      "algorithm_parameters":   {
+        "config_type":          "EuclideanGraphMotionPlannerParameters",
+        "timeout":              0.1,
+        "configuration_type":   "graph",
+        "graph_type":           "euclidean",
+        "euclidean_graph_type": "sampled",
+        "is_complete":          true
+      },
+      "config_type":            "CompleteSampledEuclideanGraphMotionPlanner"
+    }
+  ],
+  "species":                [
+    {
+      "name":            "warthog",
+      "traits":          [
+        1.0
+      ],
+      "bounding_radius": 1.0,
+      "speed":           3.0,
+      "mp_index":        0
+    }
+  ],
+  "robots":                 [
+    {
+      "name":                  "warthog0",
+      "species":               "warthog",
+      "initial_configuration": {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  979.0,
+        "y":                  433.0,
+        "id":                 27
+      }
+    }, {
+      "name":                  "warthog1",
+      "species":               "warthog",
+      "initial_configuration": {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  913.0,
+        "y":                  275.0,
+        "id":                 30
+      }
+    }, {
+      "name":                  "warthog2",
+      "species":               "warthog",
+      "initial_configuration": {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  775.0,
+        "y":                  631.0,
+        "id":                 14
+      }
+    }, {
+      "name":                  "warthog3",
+      "species":               "warthog",
+      "initial_configuration": {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  1004.0,
+        "y":                  614.0,
+        "id":                 20
+      }
+    }, {
+      "name":                  "warthog4",
+      "species":               "warthog",
+      "initial_configuration": {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  490.0,
+        "y":                  359.0,
+        "id":                 50
+      }
+    }, {
+      "name":                  "warthog5",
+      "species":               "warthog",
+      "initial_configuration": {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  639.0,
+        "y":                  176.0,
+        "id":                 38
+      }
+    }, {
+      "name":                  "warthog6",
+      "species":               "warthog",
+      "initial_configuration": {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  641.0,
+        "y":                  420.0,
+        "id":                 24
+      }
+    }, {
+      "name":                  "warthog7",
+      "species":               "warthog",
+      "initial_configuration": {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  813.0,
+        "y":                  66.0,
+        "id":                 45
+      }
+    }, {
+      "name":                  "warthog8",
+      "species":               "warthog",
+      "initial_configuration": {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  612.0,
+        "y":                  44.0,
+        "id":                 47
+      }
+    }, {
+      "name":                  "warthog9",
+      "species":               "warthog",
+      "initial_configuration": {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  619.0,
+        "y":                  822.0,
+        "id":                 56
+      }
+    }
+  ],
+  "tasks":                  [
+    {
+      "name":                   "task0",
+      "duration":               0.1,
+      "desired_traits":         [0],
+      "linear_quality_coefficients":         [0],
+      "initial_configuration":  {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  473.0,
+        "y":                  722.0,
+        "id":                 3
+      },
+      "terminal_configuration": {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  678.0,
+        "y":                  615.0,
+        "id":                 10
+      },
+      "mp_index":               0
+    },
+    {
+      "name":                   "task1",
+      "duration":               0.1,
+      "desired_traits":         [1.0],
+      "linear_quality_coefficients":         [0],
+      "initial_configuration":  {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  656.0,
+        "y":                  341.0,
+        "id":                 51
+      },
+      "terminal_configuration": {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  533.0,
+        "y":                  92.0,
+        "id":                 48
+      },
+      "mp_index":               0
+    },
+    {
+      "name":                   "task2",
+      "duration":               0.1,
+      "desired_traits":         [3.0],
+      "linear_quality_coefficients":         [0],
+      "initial_configuration":  {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  825.0,
+        "y":                  145.0,
+        "id":                 40
+      },
+      "terminal_configuration": {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  921.0,
+        "y":                  84.0,
+        "id":                 44
+      },
+      "mp_index":               0
+    },
+    {
+      "name":                   "task3",
+      "duration":               0.1,
+      "desired_traits":         [2.0],
+      "linear_quality_coefficients":         [0],
+      "initial_configuration":  {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  481.0,
+        "y":                  297.0,
+        "id":                 35
+      },
+      "terminal_configuration": {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  854.0,
+        "y":                  650.0,
+        "id":                 22
+      },
+      "mp_index":               0
+    },
+    {
+      "name":                   "task4",
+      "duration":               0.1,
+      "desired_traits":         [1.0],
+      "linear_quality_coefficients":         [0],
+      "initial_configuration":  {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  656.0,
+        "y":                  690.0,
+        "id":                 59
+      },
+      "terminal_configuration": {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  991.0,
+        "y":                  285.0,
+        "id":                 28
+      },
+      "mp_index":               0
+    },
+    {
+      "name":                   "task5",
+      "duration":               0.1,
+      "desired_traits":         [2.0],
+      "linear_quality_coefficients":         [0],
+      "initial_configuration":  {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  615.0,
+        "y":                  730.0,
+        "id":                 7
+      },
+      "terminal_configuration": {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  590.0,
+        "y":                  272.0,
+        "id":                 34
+      },
+      "mp_index":               0
+    },
+    {
+      "name":                   "task6",
+      "duration":               0.1,
+      "desired_traits":         [3.0],
+      "linear_quality_coefficients":         [0],
+      "initial_configuration":  {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  645.0,
+        "y":                  271.0,
+        "id":                 33
+      },
+      "terminal_configuration": {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  997.0,
+        "y":                  89.0,
+        "id":                 43
+      },
+      "mp_index":               0
+    },
+    {
+      "name":                   "task7",
+      "duration":               0.1,
+      "desired_traits":         [2.0],
+      "linear_quality_coefficients":         [0],
+      "initial_configuration":  {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  656.0,
+        "y":                  641.0,
+        "id":                 58
+      },
+      "terminal_configuration": {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  624.0,
+        "y":                  624.0,
+        "id":                 8
+      },
+      "mp_index":               0
+    },
+    {
+      "name":                   "task8",
+      "duration":               0.1,
+      "desired_traits":         [1.0],
+      "linear_quality_coefficients":         [0],
+      "initial_configuration":  {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  468.0,
+        "y":                  254.0,
+        "id":                 36
+      },
+      "terminal_configuration": {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  692.0,
+        "y":                  50.0,
+        "id":                 46
+      },
+      "mp_index":               0
+    },
+    {
+      "name":                   "task9",
+      "duration":               0.1,
+      "desired_traits":         [5.0],
+      "linear_quality_coefficients":         [0],
+      "initial_configuration":  {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  700.0,
+        "y":                  653.0,
+        "id":                 12
+      },
+      "terminal_configuration": {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  991.0,
+        "y":                  531.0,
+        "id":                 21
+      },
+      "mp_index":               0
+    },
+    {
+      "name":                   "task10",
+      "duration":               0.1,
+      "desired_traits":         [1.0],
+      "linear_quality_coefficients":         [0],
+      "initial_configuration":  {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  922.0,
+        "y":                  554.0,
+        "id":                 18
+      },
+      "terminal_configuration": {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  754.0,
+        "y":                  426.0,
+        "id":                 55
+      },
+      "mp_index":               0
+    },
+    {
+      "name":                   "task11",
+      "duration":               0.1,
+      "desired_traits":         [4.0],
+      "linear_quality_coefficients":         [0],
+      "initial_configuration":  {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  709.0,
+        "y":                  802.0,
+        "id":                 57
+      },
+      "terminal_configuration": {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  823.0,
+        "y":                  260.0,
+        "id":                 31
+      },
+      "mp_index":               0
+    },
+    {
+      "name":                   "task12",
+      "duration":               0.1,
+      "desired_traits":         [3.0],
+      "linear_quality_coefficients":         [0],
+      "initial_configuration":  {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  823.0,
+        "y":                  737.0,
+        "id":                 23
+      },
+      "terminal_configuration": {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  829.0,
+        "y":                  348.0,
+        "id":                 53
+      },
+      "mp_index":               0
+    },
+    {
+      "name":                   "task13",
+      "duration":               0.1,
+      "desired_traits":         [3.0],
+      "linear_quality_coefficients":         [0],
+      "initial_configuration":  {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  578.0,
+        "y":                  543.0,
+        "id":                 0
+      },
+      "terminal_configuration": {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  721.0,
+        "y":                  337.0,
+        "id":                 52
+      },
+      "mp_index":               0
+    },
+    {
+      "name":                   "task14",
+      "duration":               0.1,
+      "desired_traits":         [2.0],
+      "linear_quality_coefficients":         [0],
+      "initial_configuration":  {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  824.0,
+        "y":                  420.0,
+        "id":                 26
+      },
+      "terminal_configuration": {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  945.0,
+        "y":                  282.0,
+        "id":                 29
+      },
+      "mp_index":               0
+    },
+    {
+      "name":                   "task15",
+      "duration":               0.1,
+      "desired_traits":         [2.0],
+      "linear_quality_coefficients":         [0],
+      "initial_configuration":  {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  581.0,
+        "y":                  614.0,
+        "id":                 9
+      },
+      "terminal_configuration": {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  932.0,
+        "y":                  603.0,
+        "id":                 19
+      },
+      "mp_index":               0
+    },
+    {
+      "name":                   "task16",
+      "duration":               0.1,
+      "desired_traits":         [1.0],
+      "linear_quality_coefficients":         [0],
+      "initial_configuration":  {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  590.0,
+        "y":                  193.0,
+        "id":                 37
+      },
+      "terminal_configuration": {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  546.0,
+        "y":                  712.0,
+        "id":                 6
+      },
+      "mp_index":               0
+    },
+    {
+      "name":                   "task17",
+      "duration":               0.1,
+      "desired_traits":         [1.0],
+      "linear_quality_coefficients":         [0],
+      "initial_configuration":  {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  716.0,
+        "y":                  268.0,
+        "id":                 32
+      },
+      "terminal_configuration": {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  543.0,
+        "y":                  788.0,
+        "id":                 5
+      },
+      "mp_index":               0
+    },
+    {
+      "name":                   "task18",
+      "duration":               0.1,
+      "desired_traits":         [3.0],
+      "linear_quality_coefficients":         [0],
+      "initial_configuration":  {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  712.0,
+        "y":                  144.0,
+        "id":                 39
+      },
+      "terminal_configuration": {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  701.0,
+        "y":                  596.0,
+        "id":                 13
+      },
+      "mp_index":               0
+    },
+    {
+      "name":                   "task19",
+      "duration":               0.1,
+      "desired_traits":         [1.0],
+      "linear_quality_coefficients":         [0],
+      "initial_configuration":  {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  908.0,
+        "y":                  152.0,
+        "id":                 41
+      },
+      "terminal_configuration": {
+        "configuration_type": "graph",
+        "graph_type":         "euclidean",
+        "x":                  764.0,
+        "y":                  686.0,
+        "id":                 15
+      },
+      "mp_index":               0
+    }
+  ],
+  "plan_task_indices":      [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "precedence_constraints": [[10, 19], [14, 18], [13, 19], [0, 1], [3, 8], [6, 10], [17, 18], [9, 15], [10, 12], [7, 10], [2, 11], [11, 16], [12, 15], [9, 16], [3, 9]],
+  "use_reverse"      : false,
+  "max_schedule"     : 10000,
+  "itags_parameters":     {
+    "config_type":       "BestFirstSearchParameters",
+    "has_timeout":       false,
+    "timeout":           600,
+    "timer_name":        "itags",
+    "save_pruned_nodes": false,
+    "save_closed_nodes": false
+  },
+  "scheduler_parameters": {
+    "config_type":                "StochasticMilpSchedulerParameters",
+    "scheduler_type":             "milp",
+    "milp_scheduler_type":        "stochastic",
+    "timeout":                    1000.0,
+    "milp_timeout":               1000.0,
+    "threads":                    0,
+    "use_hierarchical_objective": false,
+    "mip_gap":                    0.05,
+    "gamma":                      0.1,
+    "num_scenarios":              20
+  }
+}
