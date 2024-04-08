@@ -1,18 +1,11 @@
-# Graphically Recursive Simultaneous Task Allocation, Planning, Scheduling, and Execution
+# Q-ITAGS: Quality-Optimized Spatio-Temporal Heterogeneous Task Allocation with a Time Budget
 
 [![ci](https://github.com/amessing/grstapse/actions/workflows/ci.yml/badge.svg)](https://github.com/amessing/grstapse/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/amessing/grstapse/branch/master/graph/badge.svg)](https://codecov.io/gh/amessing/grstapse)
 
 ## Description
 
-This repository contains the various components of GRSTAPS+E. These include a refactored version of **Forward Chaining
-Partial-Order Planning (FCPOP)**, **Incremental Task Allocation Graph Search (Itags)**, and **Graphically Recursive Task
-Allocation, Planning, and Scheduling (GRSTAPS)**. Additionally, it contains the original implementations of **Dynamic
-Incremental Task Allocation Graph Search (DITAGS)**. The refactoring uses the same algorithms from the respective papers
-except for the algorithm for scheduling. In the Dynamic Incremental Task Allocation Graph Search paper, we describe the
-change to the algorihtm for scheduling and demonstrate the improved efficiency of the refactored version to the
-original. Furthermore, we believe the refactored version improve the code quality, making development easier, and also
-is easier to extend for future research.
+This repository contains codes for **Q-ITAGS: Quality-Optimized Spatio-Temporal Heterogeneous Task Allocation with a Time Budget**. 
 
 ## Dependencies
 
@@ -59,31 +52,12 @@ about). You are responsible for your own gurobi license.
 This library is used to run experiments for academic papers. Instructions to run the experiments for those papers are
 listed below:
 
-### WAFR 2022
-
-TODO
-
 ## Development
 
 If you are interested in working on the development of this project please go to our wiki for information about setting
 up your coding environment, our coding standards, and workflow.
 
 # Citations
-
-### [Forward Chaining Hierarchical Partial-Order Planning](http://robotics.cs.rutgers.edu/wafr2020/wp-content/uploads/sites/7/2020/05/WAFR_2020_FV_43.pdf)
-
-```
-Messing, A., & Hutchinson, S. (2020, June). Forward chaining hierarchical partial-order planning. 
-In International Workshop on the Algorithmic Foundations of Robotics (pp. 364-380). Springer, Cham.
-```
-
-### [Incremental Task Allocation Graph Search]()
-
-```
-Neville, G., Messing, A., Ravichandar, H., Hutchinson, S., & Chernova, S. (2021, August). 
-An interleaved approach to trait-based task allocation and scheduling. In 2021 IEEE/RSJ 
-International Conference on Intelligent Robots and Systems (IROS) (pp. 1507-1514). IEEE.
-```
 
 ### [Graphically Recursive Simultaneous Task Allocation, Planning, and Scheduling]()
 
