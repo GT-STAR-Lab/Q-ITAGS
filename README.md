@@ -1,8 +1,5 @@
 # Q-ITAGS: Quality-Optimized Spatio-Temporal Heterogeneous Task Allocation with a Time Budget
 
-[![ci](https://github.com/amessing/grstapse/actions/workflows/ci.yml/badge.svg)](https://github.com/amessing/grstapse/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/amessing/grstapse/branch/master/graph/badge.svg)](https://codecov.io/gh/amessing/grstapse)
-
 ## Description
 
 This repository contains codes for **Q-ITAGS: Quality-Optimized Spatio-Temporal Heterogeneous Task Allocation with a Time Budget**. 
