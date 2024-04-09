@@ -4,6 +4,8 @@
 
 This repository contains codes for **Q-ITAGS: Quality-Optimized Spatio-Temporal Heterogeneous Task Allocation with a Time Budget**. 
 
+Please refer to the wikipage for a detailed instruction on how to setup this codebase using Docker.
+
 ## Dependencies
 
 **Note: We list all the dependencies down below to recognize the libraries that we use; however, all development should
