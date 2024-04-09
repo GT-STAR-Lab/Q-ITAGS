@@ -1,0 +1,638 @@
+{
+    "allocation_quality": 210.59999084472656,
+    "solution": {
+        "allocation": [
+            [
+                1.0,
+                0.0,
+                0.0
+            ],
+            [
+                1.0,
+                1.0,
+                1.0
+            ],
+            [
+                1.0,
+                1.0,
+                0.0
+            ],
+            [
+                1.0,
+                1.0,
+                1.0
+            ],
+            [
+                0.0,
+                1.0,
+                1.0
+            ],
+            [
+                1.0,
+                1.0,
+                1.0
+            ]
+        ],
+        "makespan": 115.47444915771484,
+        "precedence_constraints": [
+            [
+                2,
+                3
+            ]
+        ],
+        "precedence_set_mutex_constraints": [
+            [
+                4,
+                3
+            ],
+            [
+                5,
+                3
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                4,
+                1
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                4,
+                5
+            ],
+            [
+                0,
+                5
+            ],
+            [
+                1,
+                5
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                0,
+                1
+            ]
+        ],
+        "robots": [
+            {
+                "id": 0,
+                "individual_plan": [
+                    0,
+                    2,
+                    1,
+                    5,
+                    3
+                ],
+                "name": "Ambulance0",
+                "transitions": [
+                    {
+                        "path": [
+                            {
+                                "configuration_type": "ompl",
+                                "goal_type": "state",
+                                "state_space_type": "se2",
+                                "x": -37.474998474121094,
+                                "y": -39.42499923706055,
+                                "yaw": 0.0
+                            },
+                            {
+                                "configuration_type": "ompl",
+                                "goal_type": "state",
+                                "state_space_type": "se2",
+                                "x": 33.17500305175781,
+                                "y": -49.07499694824219,
+                                "yaw": 0.0
+                            }
+                        ],
+                        "path_length": 71.30599975585938
+                    },
+                    {
+                        "path": [
+                            {
+                                "configuration_type": "ompl",
+                                "goal_type": "state",
+                                "state_space_type": "se2",
+                                "x": -5.124998092651367,
+                                "y": 23.125001907348633,
+                                "yaw": 0.0
+                            },
+                            {
+                                "configuration_type": "ompl",
+                                "goal_type": "state",
+                                "state_space_type": "se2",
+                                "x": 39.07500076293945,
+                                "y": -41.07499694824219,
+                                "yaw": 0.0
+                            }
+                        ],
+                        "path_length": 77.94408416748047
+                    },
+                    {
+                        "path": [
+                            {
+                                "configuration_type": "ompl",
+                                "goal_type": "state",
+                                "state_space_type": "se2",
+                                "x": -9.52499771118164,
+                                "y": 45.42500305175781,
+                                "yaw": 0.0
+                            },
+                            {
+                                "configuration_type": "ompl",
+                                "goal_type": "state",
+                                "state_space_type": "se2",
+                                "x": -9.52499771118164,
+                                "y": 45.42500305175781,
+                                "yaw": 0.0
+                            }
+                        ],
+                        "path_length": 0.0
+                    },
+                    {
+                        "path": [
+                            {
+                                "configuration_type": "ompl",
+                                "goal_type": "state",
+                                "state_space_type": "se2",
+                                "x": -37.474998474121094,
+                                "y": -39.42499923706055,
+                                "yaw": 0.0
+                            },
+                            {
+                                "configuration_type": "ompl",
+                                "goal_type": "state",
+                                "state_space_type": "se2",
+                                "x": 2.3250019550323486,
+                                "y": 27.625001907348633,
+                                "yaw": 0.0
+                            }
+                        ],
+                        "path_length": 77.97270202636719
+                    },
+                    {
+                        "path": [
+                            {
+                                "configuration_type": "ompl",
+                                "goal_type": "state",
+                                "state_space_type": "se2",
+                                "x": -47.07499694824219,
+                                "y": -26.174997329711914,
+                                "yaw": 0.0
+                            },
+                            {
+                                "configuration_type": "ompl",
+                                "goal_type": "state",
+                                "state_space_type": "se2",
+                                "x": -47.07499694824219,
+                                "y": -26.174997329711914,
+                                "yaw": 0.0
+                            }
+                        ],
+                        "path_length": 0.0
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "individual_plan": [
+                    4,
+                    2,
+                    1,
+                    5,
+                    3
+                ],
+                "name": "FireTruckGround0",
+                "transitions": [
+                    {
+                        "path": [
+                            {
+                                "configuration_type": "ompl",
+                                "goal_type": "state",
+                                "state_space_type": "se2",
+                                "x": -5.124998092651367,
+                                "y": 23.125001907348633,
+                                "yaw": 0.0
+                            },
+                            {
+                                "configuration_type": "ompl",
+                                "goal_type": "state",
+                                "state_space_type": "se2",
+                                "x": 29.125001907348633,
+                                "y": 4.375001907348633,
+                                "yaw": 0.0
+                            }
+                        ],
+                        "path_length": 39.04644775390625
+                    },
+                    {
+                        "path": [
+                            {
+                                "configuration_type": "ompl",
+                                "goal_type": "state",
+                                "state_space_type": "se2",
+                                "x": -5.124998092651367,
+                                "y": 23.125001907348633,
+                                "yaw": 0.0
+                            },
+                            {
+                                "configuration_type": "ompl",
+                                "goal_type": "state",
+                                "state_space_type": "se2",
+                                "x": 39.07500076293945,
+                                "y": -41.07499694824219,
+                                "yaw": 0.0
+                            }
+                        ],
+                        "path_length": 77.94408416748047
+                    },
+                    {
+                        "path": [
+                            {
+                                "configuration_type": "ompl",
+                                "goal_type": "state",
+                                "state_space_type": "se2",
+                                "x": -9.52499771118164,
+                                "y": 45.42500305175781,
+                                "yaw": 0.0
+                            },
+                            {
+                                "configuration_type": "ompl",
+                                "goal_type": "state",
+                                "state_space_type": "se2",
+                                "x": -9.52499771118164,
+                                "y": 45.42500305175781,
+                                "yaw": 0.0
+                            }
+                        ],
+                        "path_length": 0.0
+                    },
+                    {
+                        "path": [
+                            {
+                                "configuration_type": "ompl",
+                                "goal_type": "state",
+                                "state_space_type": "se2",
+                                "x": -37.474998474121094,
+                                "y": -39.42499923706055,
+                                "yaw": 0.0
+                            },
+                            {
+                                "configuration_type": "ompl",
+                                "goal_type": "state",
+                                "state_space_type": "se2",
+                                "x": 2.3250019550323486,
+                                "y": 27.625001907348633,
+                                "yaw": 0.0
+                            }
+                        ],
+                        "path_length": 77.97270202636719
+                    },
+                    {
+                        "path": [
+                            {
+                                "configuration_type": "ompl",
+                                "goal_type": "state",
+                                "state_space_type": "se2",
+                                "x": -47.07499694824219,
+                                "y": -26.174997329711914,
+                                "yaw": 0.0
+                            },
+                            {
+                                "configuration_type": "ompl",
+                                "goal_type": "state",
+                                "state_space_type": "se2",
+                                "x": -47.07499694824219,
+                                "y": -26.174997329711914,
+                                "yaw": 0.0
+                            }
+                        ],
+                        "path_length": 0.0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "individual_plan": [
+                    4,
+                    1,
+                    5,
+                    3
+                ],
+                "name": "CraneGround0",
+                "transitions": [
+                    {
+                        "path": [
+                            {
+                                "configuration_type": "ompl",
+                                "goal_type": "state",
+                                "state_space_type": "se2",
+                                "x": -6.4749979972839355,
+                                "y": -18.07499885559082,
+                                "yaw": 0.0
+                            },
+                            {
+                                "configuration_type": "ompl",
+                                "goal_type": "state",
+                                "state_space_type": "se2",
+                                "x": 29.125001907348633,
+                                "y": 4.375001907348633,
+                                "yaw": 0.0
+                            }
+                        ],
+                        "path_length": 42.08755874633789
+                    },
+                    {
+                        "path": [
+                            {
+                                "configuration_type": "ompl",
+                                "goal_type": "state",
+                                "state_space_type": "se2",
+                                "x": -9.52499771118164,
+                                "y": 45.42500305175781,
+                                "yaw": 0.0
+                            },
+                            {
+                                "configuration_type": "ompl",
+                                "goal_type": "state",
+                                "state_space_type": "se2",
+                                "x": -9.52499771118164,
+                                "y": 45.42500305175781,
+                                "yaw": 0.0
+                            }
+                        ],
+                        "path_length": 0.0
+                    },
+                    {
+                        "path": [
+                            {
+                                "configuration_type": "ompl",
+                                "goal_type": "state",
+                                "state_space_type": "se2",
+                                "x": -37.474998474121094,
+                                "y": -39.42499923706055,
+                                "yaw": 0.0
+                            },
+                            {
+                                "configuration_type": "ompl",
+                                "goal_type": "state",
+                                "state_space_type": "se2",
+                                "x": 2.3250019550323486,
+                                "y": 27.625001907348633,
+                                "yaw": 0.0
+                            }
+                        ],
+                        "path_length": 77.97270202636719
+                    },
+                    {
+                        "path": [
+                            {
+                                "configuration_type": "ompl",
+                                "goal_type": "state",
+                                "state_space_type": "se2",
+                                "x": -47.07499694824219,
+                                "y": -26.174997329711914,
+                                "yaw": 0.0
+                            },
+                            {
+                                "configuration_type": "ompl",
+                                "goal_type": "state",
+                                "state_space_type": "se2",
+                                "x": -47.07499694824219,
+                                "y": -26.174997329711914,
+                                "yaw": 0.0
+                            }
+                        ],
+                        "path_length": 0.0
+                    }
+                ]
+            }
+        ],
+        "tasks": [
+            {
+                "coalition": [
+                    0
+                ],
+                "execution_motion_plan": {
+                    "path": [
+                        {
+                            "configuration_type": "ompl",
+                            "goal_type": "state",
+                            "state_space_type": "se2",
+                            "x": 33.17500305175781,
+                            "y": -49.07499694824219,
+                            "yaw": 0.0
+                        },
+                        {
+                            "configuration_type": "ompl",
+                            "goal_type": "state",
+                            "state_space_type": "se2",
+                            "x": 33.17500305175781,
+                            "y": -49.07499694824219,
+                            "yaw": 0.0
+                        }
+                    ],
+                    "path_length": 0.0
+                },
+                "finish_timepoint": 23.868667602539063,
+                "id": 0,
+                "name": "repairBuilding",
+                "start_timepoint": 23.768667221069336
+            },
+            {
+                "coalition": [
+                    0,
+                    1,
+                    2
+                ],
+                "execution_motion_plan": {
+                    "path": [
+                        {
+                            "configuration_type": "ompl",
+                            "goal_type": "state",
+                            "state_space_type": "se2",
+                            "x": -9.52499771118164,
+                            "y": 45.42500305175781,
+                            "yaw": 0.0
+                        },
+                        {
+                            "configuration_type": "ompl",
+                            "goal_type": "state",
+                            "state_space_type": "se2",
+                            "x": -9.52499771118164,
+                            "y": 45.42500305175781,
+                            "yaw": 0.0
+                        }
+                    ],
+                    "path_length": 0.0
+                },
+                "finish_timepoint": 70.41058349609375,
+                "id": 1,
+                "name": "repairBuilding",
+                "start_timepoint": 70.31058502197266
+            },
+            {
+                "coalition": [
+                    0,
+                    1
+                ],
+                "execution_motion_plan": {
+                    "path": [
+                        {
+                            "configuration_type": "ompl",
+                            "goal_type": "state",
+                            "state_space_type": "se2",
+                            "x": 39.07500076293945,
+                            "y": -41.07499694824219,
+                            "yaw": 0.0
+                        },
+                        {
+                            "configuration_type": "ompl",
+                            "goal_type": "state",
+                            "state_space_type": "se2",
+                            "x": -5.124998092651367,
+                            "y": 23.125001907348633,
+                            "yaw": 0.0
+                        }
+                    ],
+                    "path_length": 77.94408416748047
+                },
+                "finish_timepoint": 62.73394012451172,
+                "id": 2,
+                "name": "exstinguishFire",
+                "start_timepoint": 36.6525764465332
+            },
+            {
+                "coalition": [
+                    0,
+                    1,
+                    2
+                ],
+                "execution_motion_plan": {
+                    "path": [
+                        {
+                            "configuration_type": "ompl",
+                            "goal_type": "state",
+                            "state_space_type": "se2",
+                            "x": -47.07499694824219,
+                            "y": -26.174997329711914,
+                            "yaw": 0.0
+                        },
+                        {
+                            "configuration_type": "ompl",
+                            "goal_type": "state",
+                            "state_space_type": "se2",
+                            "x": -47.07499694824219,
+                            "y": -26.174997329711914,
+                            "yaw": 0.0
+                        }
+                    ],
+                    "path_length": 0.0
+                },
+                "finish_timepoint": 115.47444152832031,
+                "id": 3,
+                "name": "repairBuilding",
+                "start_timepoint": 115.37444305419922
+            },
+            {
+                "coalition": [
+                    1,
+                    2
+                ],
+                "execution_motion_plan": {
+                    "path": [
+                        {
+                            "configuration_type": "ompl",
+                            "goal_type": "state",
+                            "state_space_type": "se2",
+                            "x": 29.125001907348633,
+                            "y": 4.375001907348633,
+                            "yaw": 0.0
+                        },
+                        {
+                            "configuration_type": "ompl",
+                            "goal_type": "state",
+                            "state_space_type": "se2",
+                            "x": 29.125001907348633,
+                            "y": 4.375001907348633,
+                            "yaw": 0.0
+                        }
+                    ],
+                    "path_length": 0.0
+                },
+                "finish_timepoint": 21.143779754638672,
+                "id": 4,
+                "name": "clearRubble",
+                "start_timepoint": 21.043779373168945
+            },
+            {
+                "coalition": [
+                    0,
+                    1,
+                    2
+                ],
+                "execution_motion_plan": {
+                    "path": [
+                        {
+                            "configuration_type": "ompl",
+                            "goal_type": "state",
+                            "state_space_type": "se2",
+                            "x": 2.3250019550323486,
+                            "y": 27.625001907348633,
+                            "yaw": 0.0
+                        },
+                        {
+                            "configuration_type": "ompl",
+                            "goal_type": "state",
+                            "state_space_type": "se2",
+                            "x": -37.474998474121094,
+                            "y": -39.42499923706055,
+                            "yaw": 0.0
+                        }
+                    ],
+                    "path_length": 77.97270202636719
+                },
+                "finish_timepoint": 107.19332885742188,
+                "id": 5,
+                "name": "moveSurvivor",
+                "start_timepoint": 81.10243225097656
+            }
+        ]
+    },
+    "statistics": {
+        "motion_planning_time": 84.36580657958984,
+        "nodes_deadend": 0,
+        "nodes_evaluated": 66,
+        "nodes_expanded": 4,
+        "nodes_generated": 67,
+        "nodes_pruned": 0,
+        "nodes_reopened": 0,
+        "num_motion_plan_failures": 0,
+        "num_motion_plans": 69,
+        "num_scheduling_failures": 0,
+        "num_scheduling_iterations": 913005,
+        "scheduling_time": 2701.43994140625,
+        "task_allocation_time": 84.450439453125,
+        "total_time": 2870.256103515625
+    }
+}

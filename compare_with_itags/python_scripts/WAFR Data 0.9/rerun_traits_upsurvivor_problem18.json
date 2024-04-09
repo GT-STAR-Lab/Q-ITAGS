@@ -1,0 +1,2931 @@
+{
+    "allocation": [
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ],
+        [
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ],
+        [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ],
+        [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ],
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    ],
+    "makespan": 233.12417602539063,
+    "precedence_constraints": [
+        [
+            2,
+            3
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            22,
+            23
+        ]
+    ],
+    "precedence_set_mutex_constraints": [
+        [
+            17,
+            22
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            6,
+            16
+        ],
+        [
+            10,
+            23
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            15,
+            20
+        ],
+        [
+            9,
+            23
+        ],
+        [
+            2,
+            22
+        ],
+        [
+            2,
+            17
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            12,
+            20
+        ],
+        [
+            14,
+            21
+        ],
+        [
+            12,
+            23
+        ],
+        [
+            4,
+            16
+        ],
+        [
+            13,
+            19
+        ],
+        [
+            1,
+            5
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            12,
+            21
+        ],
+        [
+            9,
+            21
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            8,
+            18
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            9,
+            15
+        ],
+        [
+            20,
+            23
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            11,
+            18
+        ],
+        [
+            15,
+            21
+        ],
+        [
+            1,
+            7
+        ],
+        [
+            14,
+            20
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            15,
+            23
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            10,
+            21
+        ],
+        [
+            13,
+            22
+        ],
+        [
+            9,
+            20
+        ],
+        [
+            14,
+            23
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            0,
+            18
+        ],
+        [
+            2,
+            13
+        ],
+        [
+            9,
+            14
+        ],
+        [
+            10,
+            20
+        ],
+        [
+            19,
+            22
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            2,
+            19
+        ]
+    ],
+    "robots": [
+        {
+            "id": 1,
+            "individual_plan": [
+                2,
+                13,
+                17,
+                19,
+                22
+            ],
+            "name": "FireTruckGround0",
+            "transitions": [
+                [
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -21.5,
+                        "y": 67.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -21.5,
+                        "y": 67.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -15.811822348830233,
+                        "y": 54.01096257768839,
+                        "yaw": 1.0729756552988112
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -13.053895314310466,
+                        "y": 44.982924479230206,
+                        "yaw": 0.4713980528369568
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -16.171279023144507,
+                        "y": 35.224558001925246,
+                        "yaw": -0.7836224009785693
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -16.117904180130523,
+                        "y": 29.918126223361725,
+                        "yaw": -1.0313468227089198
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -20.97454449245204,
+                        "y": 23.47035463646081,
+                        "yaw": -1.3410470765284346
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -23.367700925342547,
+                        "y": 20.430175780746637,
+                        "yaw": -0.8567984565788076
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -25.114853639590763,
+                        "y": 14.39601807700653,
+                        "yaw": 0.4266715980918865
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -26.0,
+                        "y": 13.25,
+                        "yaw": 0.0
+                    }
+                ],
+                [
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -21.5,
+                        "y": 67.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -21.5,
+                        "y": 67.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -15.811822348830233,
+                        "y": 54.01096257768839,
+                        "yaw": 1.0729756552988112
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -12.955724670417197,
+                        "y": 48.014253900412044,
+                        "yaw": 2.775358185545702
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -10.509168792239095,
+                        "y": 46.461641472959414,
+                        "yaw": 2.57936474844405
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -8.350116436857533,
+                        "y": 44.34787517767032,
+                        "yaw": 2.3709615229892442
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -6.45188666951843,
+                        "y": 42.44645637901479,
+                        "yaw": 2.0072902549575495
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -7.0,
+                        "y": 40.75,
+                        "yaw": 0.0
+                    }
+                ],
+                [
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -21.5,
+                        "y": 67.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -21.5,
+                        "y": 67.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -11.809168838021492,
+                        "y": 61.201158126581646,
+                        "yaw": 1.2968058482524292
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 3.8669362527394355,
+                        "y": 50.37295171079526,
+                        "yaw": 1.6748441130593736
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 28.256363496872325,
+                        "y": 33.69261614678243,
+                        "yaw": -2.88431778771379
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 47.17185564058127,
+                        "y": 26.426619687560034,
+                        "yaw": -2.750810007206356
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 60.22897485777301,
+                        "y": 25.521760801975688,
+                        "yaw": -2.7217682696238756
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 73.8228925915042,
+                        "y": 16.936294327587618,
+                        "yaw": -0.3808156446245001
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 84.41951729785228,
+                        "y": 9.429959933872482,
+                        "yaw": -0.23335928128355432
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 91.2163815155464,
+                        "y": 5.04538883652863,
+                        "yaw": 0.5924962141516859
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 93.0,
+                        "y": 4.25,
+                        "yaw": 0.0
+                    }
+                ],
+                [
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -21.5,
+                        "y": 67.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -21.5,
+                        "y": 67.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -9.21480637411851,
+                        "y": 69.49852420608713,
+                        "yaw": -0.06755092045319833
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 0.5232217094050782,
+                        "y": 67.91799922964947,
+                        "yaw": -1.4512623411287788
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 8.968046552934368,
+                        "y": 61.21178585184876,
+                        "yaw": -1.73783681866223
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 45.42057850960819,
+                        "y": 51.07729605408923,
+                        "yaw": -2.0385078956479132
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 48.78238915466366,
+                        "y": 50.352424510610575,
+                        "yaw": 2.224264539572067
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 54.10337298654369,
+                        "y": 48.99545114209428,
+                        "yaw": 0.8277415615218282
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 54.5,
+                        "y": 46.75,
+                        "yaw": 0.0
+                    }
+                ],
+                [
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -21.5,
+                        "y": 67.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -21.5,
+                        "y": 67.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -17.911840450574132,
+                        "y": 69.39736686326427,
+                        "yaw": 1.9190455411798126
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -16.0980031591112,
+                        "y": 73.21500231076865,
+                        "yaw": 2.170172676779167
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -14.5,
+                        "y": 73.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -14.5,
+                        "y": 73.75,
+                        "yaw": 0.0
+                    }
+                ]
+            ]
+        },
+        {
+            "id": 2,
+            "individual_plan": [
+                4,
+                6,
+                16
+            ],
+            "name": "CraneGround0",
+            "transitions": [
+                [
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -57.5,
+                        "y": 43.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -57.5,
+                        "y": 43.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -53.82034080455818,
+                        "y": 40.35798998614061,
+                        "yaw": -0.11226818654044157
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -46.47874290690562,
+                        "y": 36.45651391177155,
+                        "yaw": 0.05374063246418892
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -39.229607838932196,
+                        "y": 34.078361202837826,
+                        "yaw": -1.5402708261254057
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -36.900976197736824,
+                        "y": 32.82823208499903,
+                        "yaw": 0.34927117386136164
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -12.360048481479623,
+                        "y": 28.0881969730154,
+                        "yaw": 1.0840633282321601
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 12.956147301215438,
+                        "y": 20.19828561102436,
+                        "yaw": 1.285231538560545
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 44.38673685040325,
+                        "y": 10.49254589902118,
+                        "yaw": 1.1838544435240719
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 73.8228925915042,
+                        "y": 16.936294327587618,
+                        "yaw": -0.3808156446245001
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 90.3096548967265,
+                        "y": 15.919442165294413,
+                        "yaw": -0.2816135286597845
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 94.16748398159771,
+                        "y": 14.80910398561008,
+                        "yaw": -0.5504333677270141
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 96.5,
+                        "y": 17.25,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 96.5,
+                        "y": 17.25,
+                        "yaw": 0.0
+                    }
+                ],
+                [
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -52.5,
+                        "y": 13.25,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -52.5,
+                        "y": 13.25,
+                        "yaw": 0.0
+                    }
+                ],
+                [
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -99.0,
+                        "y": -4.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -99.0,
+                        "y": -4.75,
+                        "yaw": 0.0
+                    }
+                ]
+            ]
+        },
+        {
+            "id": 3,
+            "individual_plan": [
+                2,
+                13,
+                19,
+                22
+            ],
+            "name": "FireTruckGround1",
+            "transitions": [
+                [
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -21.5,
+                        "y": 67.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -21.5,
+                        "y": 67.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -15.811822348830233,
+                        "y": 54.01096257768839,
+                        "yaw": 1.0729756552988112
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -13.053895314310466,
+                        "y": 44.982924479230206,
+                        "yaw": 0.4713980528369568
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -16.171279023144507,
+                        "y": 35.224558001925246,
+                        "yaw": -0.7836224009785693
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -16.117904180130523,
+                        "y": 29.918126223361725,
+                        "yaw": -1.0313468227089198
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -20.97454449245204,
+                        "y": 23.47035463646081,
+                        "yaw": -1.3410470765284346
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -23.367700925342547,
+                        "y": 20.430175780746637,
+                        "yaw": -0.8567984565788076
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -25.114853639590763,
+                        "y": 14.39601807700653,
+                        "yaw": 0.4266715980918865
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -26.0,
+                        "y": 13.25,
+                        "yaw": 0.0
+                    }
+                ],
+                [
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -21.5,
+                        "y": 67.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -21.5,
+                        "y": 67.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -15.811822348830233,
+                        "y": 54.01096257768839,
+                        "yaw": 1.0729756552988112
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -12.955724670417197,
+                        "y": 48.014253900412044,
+                        "yaw": 2.775358185545702
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -10.509168792239095,
+                        "y": 46.461641472959414,
+                        "yaw": 2.57936474844405
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -8.350116436857533,
+                        "y": 44.34787517767032,
+                        "yaw": 2.3709615229892442
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -6.45188666951843,
+                        "y": 42.44645637901479,
+                        "yaw": 2.0072902549575495
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -7.0,
+                        "y": 40.75,
+                        "yaw": 0.0
+                    }
+                ],
+                [
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -21.5,
+                        "y": 67.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -21.5,
+                        "y": 67.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -9.21480637411851,
+                        "y": 69.49852420608713,
+                        "yaw": -0.06755092045319833
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 0.5232217094050782,
+                        "y": 67.91799922964947,
+                        "yaw": -1.4512623411287788
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 8.968046552934368,
+                        "y": 61.21178585184876,
+                        "yaw": -1.73783681866223
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 45.42057850960819,
+                        "y": 51.07729605408923,
+                        "yaw": -2.0385078956479132
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 48.78238915466366,
+                        "y": 50.352424510610575,
+                        "yaw": 2.224264539572067
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 54.10337298654369,
+                        "y": 48.99545114209428,
+                        "yaw": 0.8277415615218282
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 54.5,
+                        "y": 46.75,
+                        "yaw": 0.0
+                    }
+                ],
+                [
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -21.5,
+                        "y": 67.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -21.5,
+                        "y": 67.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -17.911840450574132,
+                        "y": 69.39736686326427,
+                        "yaw": 1.9190455411798126
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -16.0980031591112,
+                        "y": 73.21500231076865,
+                        "yaw": 2.170172676779167
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -14.5,
+                        "y": 73.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -14.5,
+                        "y": 73.75,
+                        "yaw": 0.0
+                    }
+                ]
+            ]
+        },
+        {
+            "id": 4,
+            "individual_plan": [],
+            "name": "Ambulance1"
+        },
+        {
+            "id": 5,
+            "individual_plan": [
+                0,
+                8,
+                11,
+                18
+            ],
+            "name": "CraneGround1",
+            "transitions": [
+                [
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -57.5,
+                        "y": 43.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -57.91737749559176,
+                        "y": 38.974452116870665,
+                        "yaw": -0.621402245463758
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -24.0,
+                        "y": 4.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -24.0,
+                        "y": 4.75,
+                        "yaw": 0.0
+                    }
+                ],
+                [
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -74.5,
+                        "y": 61.25,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -74.5,
+                        "y": 61.25,
+                        "yaw": 0.0
+                    }
+                ],
+                [
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -63.5,
+                        "y": 31.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -63.5,
+                        "y": 31.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -69.27079730161027,
+                        "y": 36.0484998699438,
+                        "yaw": 1.0998728648793188
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -69.61324203732664,
+                        "y": 37.935093036358694,
+                        "yaw": 0.9337609359373094
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -72.61866783942926,
+                        "y": 41.71949436523535,
+                        "yaw": -0.1074544409449194
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -75.20197076206267,
+                        "y": 45.8512914415231,
+                        "yaw": 0.6427850631921981
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -83.1167255488827,
+                        "y": 55.62157867499269,
+                        "yaw": 0.42765995482368835
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -83.54623505314085,
+                        "y": 57.62473624003147,
+                        "yaw": 0.43836549507743117
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -84.5,
+                        "y": 60.25,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -84.5,
+                        "y": 60.25,
+                        "yaw": 0.0
+                    }
+                ],
+                [
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -18.0,
+                        "y": -65.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -18.0,
+                        "y": -65.75,
+                        "yaw": 0.0
+                    }
+                ]
+            ]
+        },
+        {
+            "id": 6,
+            "individual_plan": [
+                9,
+                10,
+                12,
+                14,
+                15,
+                20,
+                21,
+                23
+            ],
+            "name": "CraneGround2",
+            "transitions": [
+                [
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -57.5,
+                        "y": 43.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -57.5,
+                        "y": 43.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -57.91737749559176,
+                        "y": 38.974452116870665,
+                        "yaw": -0.621402245463758
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -59.0755366256826,
+                        "y": 19.374043646379235,
+                        "yaw": -0.43636861879646727
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -53.149569091291426,
+                        "y": 12.145309045090386,
+                        "yaw": -0.13214092516052833
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -53.0,
+                        "y": 9.25,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -53.0,
+                        "y": 9.25,
+                        "yaw": 0.0
+                    }
+                ],
+                [
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -24.0,
+                        "y": -38.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -24.0,
+                        "y": -38.75,
+                        "yaw": 0.0
+                    }
+                ],
+                [
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -40.5,
+                        "y": -35.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -40.5,
+                        "y": -35.75,
+                        "yaw": 0.0
+                    }
+                ],
+                [
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 13.0,
+                        "y": -43.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 13.0,
+                        "y": -43.75,
+                        "yaw": 0.0
+                    }
+                ],
+                [
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 11.5,
+                        "y": -7.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 11.5,
+                        "y": -7.75,
+                        "yaw": 0.0
+                    }
+                ],
+                [
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 23.5,
+                        "y": 3.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 23.5,
+                        "y": 3.75,
+                        "yaw": 0.0
+                    }
+                ],
+                [
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 30.5,
+                        "y": 1.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 30.5,
+                        "y": 1.75,
+                        "yaw": 0.0
+                    }
+                ],
+                [
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 4.5,
+                        "y": 1.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 4.5,
+                        "y": 1.75,
+                        "yaw": 0.0
+                    }
+                ]
+            ]
+        },
+        {
+            "id": 7,
+            "individual_plan": [],
+            "name": "FireTruckAerial0"
+        },
+        {
+            "id": 8,
+            "individual_plan": [
+                1,
+                3,
+                5,
+                7
+            ],
+            "name": "CraneGround3",
+            "transitions": [
+                [
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -57.5,
+                        "y": 43.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -57.91737749559176,
+                        "y": 38.974452116870665,
+                        "yaw": -0.621402245463758
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -23.55187595099656,
+                        "y": 2.846780185687507,
+                        "yaw": -0.6893093618206123
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -19.54771577713845,
+                        "y": -7.650327292624894,
+                        "yaw": -0.15836159317215248
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -16.575685722929236,
+                        "y": -26.60234224362072,
+                        "yaw": 0.9915637842614506
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -10.550236236688633,
+                        "y": -33.56966689973813,
+                        "yaw": 0.3065572306304536
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -9.5,
+                        "y": -36.25,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -9.5,
+                        "y": -36.25,
+                        "yaw": 0.0
+                    }
+                ],
+                [
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -50.0,
+                        "y": -65.25,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -50.0,
+                        "y": -65.25,
+                        "yaw": 0.0
+                    }
+                ],
+                [
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -84.0,
+                        "y": -8.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -84.0,
+                        "y": -8.75,
+                        "yaw": 0.0
+                    }
+                ],
+                [
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -85.0,
+                        "y": 9.25,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -85.0,
+                        "y": 9.25,
+                        "yaw": 0.0
+                    }
+                ]
+            ]
+        },
+        {
+            "id": 9,
+            "individual_plan": [
+                17
+            ],
+            "name": "FireTruckGround2",
+            "transitions": [
+                [
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -21.5,
+                        "y": 67.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -21.5,
+                        "y": 67.75,
+                        "yaw": 0.0
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": -11.809168838021492,
+                        "y": 61.201158126581646,
+                        "yaw": 1.2968058482524292
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 3.8669362527394355,
+                        "y": 50.37295171079526,
+                        "yaw": 1.6748441130593736
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 28.256363496872325,
+                        "y": 33.69261614678243,
+                        "yaw": -2.88431778771379
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 47.17185564058127,
+                        "y": 26.426619687560034,
+                        "yaw": -2.750810007206356
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 60.22897485777301,
+                        "y": 25.521760801975688,
+                        "yaw": -2.7217682696238756
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 73.8228925915042,
+                        "y": 16.936294327587618,
+                        "yaw": -0.3808156446245001
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 84.41951729785228,
+                        "y": 9.429959933872482,
+                        "yaw": -0.23335928128355432
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 91.2163815155464,
+                        "y": 5.04538883652863,
+                        "yaw": 0.5924962141516859
+                    },
+                    {
+                        "configuration_type": "ompl",
+                        "goal_type": "state",
+                        "state_space_type": "se2",
+                        "x": 93.0,
+                        "y": 4.25,
+                        "yaw": 0.0
+                    }
+                ]
+            ]
+        }
+    ],
+    "statistics": {
+        "motion_planning_time": 4.515112400054932,
+        "nodes_deadend": 0,
+        "nodes_evaluated": 3225,
+        "nodes_expanded": 29,
+        "nodes_generated": 6555,
+        "nodes_pruned": 3329,
+        "nodes_reopened": 0,
+        "num_motion_plan_failures": 1,
+        "num_motion_plans": 506,
+        "num_scheduling_failures": 28,
+        "num_scheduling_iterations": 1224077,
+        "scheduling_time": 6.825648784637451,
+        "task_allocation_time": 0.2604351043701172,
+        "total_time": 11.6011962890625
+    },
+    "tasks": [
+        {
+            "coalition": [
+                5
+            ],
+            "execution_motion_plan": [
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -24.0,
+                    "y": 4.75,
+                    "yaw": 0.0
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -24.0,
+                    "y": 4.75,
+                    "yaw": 0.0
+                }
+            ],
+            "finish_timepoint": 26.89959716796875,
+            "id": 0,
+            "name": "clearRubble",
+            "start_timepoint": 26.799596786499023
+        },
+        {
+            "coalition": [
+                8
+            ],
+            "execution_motion_plan": [
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -9.5,
+                    "y": -36.25,
+                    "yaw": 0.0
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -9.5,
+                    "y": -36.25,
+                    "yaw": 0.0
+                }
+            ],
+            "finish_timepoint": 49.52252197265625,
+            "id": 1,
+            "name": "clearRubble",
+            "start_timepoint": 49.422523498535156
+        },
+        {
+            "coalition": [
+                1,
+                3
+            ],
+            "execution_motion_plan": [
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -26.0,
+                    "y": 13.25,
+                    "yaw": 0.0
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -26.073667141501616,
+                    "y": 19.962891598020207,
+                    "yaw": 2.1603952656043424
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -19.119339374461376,
+                    "y": 28.21181470357142,
+                    "yaw": 2.2423758245766487
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -12.439335877382405,
+                    "y": 43.64017393846865,
+                    "yaw": 0.35177237258961913
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -15.811822348830233,
+                    "y": 54.01096257768839,
+                    "yaw": 1.0729756552988112
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -21.5,
+                    "y": 67.75,
+                    "yaw": 0.0
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -21.5,
+                    "y": 67.75,
+                    "yaw": 0.0
+                }
+            ],
+            "finish_timepoint": 41.90890121459961,
+            "id": 2,
+            "name": "exstinguishFire",
+            "start_timepoint": 20.790950775146484
+        },
+        {
+            "coalition": [
+                8
+            ],
+            "execution_motion_plan": [
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -50.0,
+                    "y": -65.25,
+                    "yaw": 0.0
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -50.0,
+                    "y": -65.25,
+                    "yaw": 0.0
+                }
+            ],
+            "finish_timepoint": 75.11138916015625,
+            "id": 3,
+            "name": "repairBuilding",
+            "start_timepoint": 75.01138305664063
+        },
+        {
+            "coalition": [
+                2
+            ],
+            "execution_motion_plan": [
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": 96.5,
+                    "y": 17.25,
+                    "yaw": 0.0
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": 96.5,
+                    "y": 17.25,
+                    "yaw": 0.0
+                }
+            ],
+            "finish_timepoint": 82.94021606445313,
+            "id": 4,
+            "name": "repairBuilding",
+            "start_timepoint": 82.84021759033203
+        },
+        {
+            "coalition": [
+                8
+            ],
+            "execution_motion_plan": [
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -84.0,
+                    "y": -8.75,
+                    "yaw": 0.0
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -84.0,
+                    "y": -8.75,
+                    "yaw": 0.0
+                }
+            ],
+            "finish_timepoint": 111.17977142333984,
+            "id": 5,
+            "name": "repairBuilding",
+            "start_timepoint": 111.07977294921875
+        },
+        {
+            "coalition": [
+                2
+            ],
+            "execution_motion_plan": [
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -52.5,
+                    "y": 13.25,
+                    "yaw": 0.0
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -52.5,
+                    "y": 13.25,
+                    "yaw": 0.0
+                }
+            ],
+            "finish_timepoint": 161.74014282226563,
+            "id": 6,
+            "name": "repairBuilding",
+            "start_timepoint": 161.64013671875
+        },
+        {
+            "coalition": [
+                8
+            ],
+            "execution_motion_plan": [
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -85.0,
+                    "y": 9.25,
+                    "yaw": 0.0
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -85.0,
+                    "y": 9.25,
+                    "yaw": 0.0
+                }
+            ],
+            "finish_timepoint": 121.16795349121094,
+            "id": 7,
+            "name": "repairBuilding",
+            "start_timepoint": 121.06795501708984
+        },
+        {
+            "coalition": [
+                5
+            ],
+            "execution_motion_plan": [
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -74.5,
+                    "y": 61.25,
+                    "yaw": 0.0
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -74.5,
+                    "y": 61.25,
+                    "yaw": 0.0
+                }
+            ],
+            "finish_timepoint": 66.50423431396484,
+            "id": 8,
+            "name": "repairBuilding",
+            "start_timepoint": 66.40422821044922
+        },
+        {
+            "coalition": [
+                6
+            ],
+            "execution_motion_plan": [
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -53.0,
+                    "y": 9.25,
+                    "yaw": 0.0
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -53.0,
+                    "y": 9.25,
+                    "yaw": 0.0
+                }
+            ],
+            "finish_timepoint": 18.74810218811035,
+            "id": 9,
+            "name": "repairBuilding",
+            "start_timepoint": 18.648101806640625
+        },
+        {
+            "coalition": [
+                6
+            ],
+            "execution_motion_plan": [
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -24.0,
+                    "y": -38.75,
+                    "yaw": 0.0
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -24.0,
+                    "y": -38.75,
+                    "yaw": 0.0
+                }
+            ],
+            "finish_timepoint": 48.511627197265625,
+            "id": 10,
+            "name": "repairBuilding",
+            "start_timepoint": 48.411624908447266
+        },
+        {
+            "coalition": [
+                5
+            ],
+            "execution_motion_plan": [
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -84.5,
+                    "y": 60.25,
+                    "yaw": 0.0
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -84.5,
+                    "y": 60.25,
+                    "yaw": 0.0
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -81.96725623039211,
+                    "y": 58.184431911936315,
+                    "yaw": 1.021518627098172
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -83.1167255488827,
+                    "y": 55.62157867499269,
+                    "yaw": 0.42765995482368835
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -75.20197076206267,
+                    "y": 45.8512914415231,
+                    "yaw": 0.6427850631921981
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -72.61866783942926,
+                    "y": 41.71949436523535,
+                    "yaw": -0.1074544409449194
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -69.61324203732664,
+                    "y": 37.935093036358694,
+                    "yaw": 0.9337609359373094
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -69.27079730161027,
+                    "y": 36.0484998699438,
+                    "yaw": 1.0998728648793188
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -63.5,
+                    "y": 31.75,
+                    "yaw": 0.0
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -63.5,
+                    "y": 31.75,
+                    "yaw": 0.0
+                }
+            ],
+            "finish_timepoint": 93.15642547607422,
+            "id": 11,
+            "name": "moveSurvivor",
+            "start_timepoint": 73.09961700439453
+        },
+        {
+            "coalition": [
+                6
+            ],
+            "execution_motion_plan": [
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -40.5,
+                    "y": -35.75,
+                    "yaw": 0.0
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -40.5,
+                    "y": -35.75,
+                    "yaw": 0.0
+                }
+            ],
+            "finish_timepoint": 58.001800537109375,
+            "id": 12,
+            "name": "repairBuilding",
+            "start_timepoint": 57.90180206298828
+        },
+        {
+            "coalition": [
+                1,
+                3
+            ],
+            "execution_motion_plan": [
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -7.0,
+                    "y": 40.75,
+                    "yaw": 0.0
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -6.45188666951843,
+                    "y": 42.44645637901479,
+                    "yaw": 2.0072902549575495
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -8.350116436857533,
+                    "y": 44.34787517767032,
+                    "yaw": 2.3709615229892442
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -10.509168792239095,
+                    "y": 46.461641472959414,
+                    "yaw": 2.57936474844405
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -12.955724670417197,
+                    "y": 48.014253900412044,
+                    "yaw": 2.775358185545702
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -15.811822348830233,
+                    "y": 54.01096257768839,
+                    "yaw": 1.0729756552988112
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -21.5,
+                    "y": 67.75,
+                    "yaw": 0.0
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -21.5,
+                    "y": 67.75,
+                    "yaw": 0.0
+                }
+            ],
+            "finish_timepoint": 65.1263427734375,
+            "id": 13,
+            "name": "exstinguishFire",
+            "start_timepoint": 53.46762466430664
+        },
+        {
+            "coalition": [
+                6
+            ],
+            "execution_motion_plan": [
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": 13.0,
+                    "y": -43.75,
+                    "yaw": 0.0
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": 13.0,
+                    "y": -43.75,
+                    "yaw": 0.0
+                }
+            ],
+            "finish_timepoint": 88.10628509521484,
+            "id": 14,
+            "name": "repairBuilding",
+            "start_timepoint": 88.00627899169922
+        },
+        {
+            "coalition": [
+                6
+            ],
+            "execution_motion_plan": [
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": 11.5,
+                    "y": -7.75,
+                    "yaw": 0.0
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": 11.5,
+                    "y": -7.75,
+                    "yaw": 0.0
+                }
+            ],
+            "finish_timepoint": 107.95793151855469,
+            "id": 15,
+            "name": "repairBuilding",
+            "start_timepoint": 107.8579330444336
+        },
+        {
+            "coalition": [
+                2
+            ],
+            "execution_motion_plan": [
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -99.0,
+                    "y": -4.75,
+                    "yaw": 0.0
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -99.0,
+                    "y": -4.75,
+                    "yaw": 0.0
+                }
+            ],
+            "finish_timepoint": 188.90261840820313,
+            "id": 16,
+            "name": "repairBuilding",
+            "start_timepoint": 188.80262756347656
+        },
+        {
+            "coalition": [
+                1,
+                9
+            ],
+            "execution_motion_plan": [
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": 93.0,
+                    "y": 4.25,
+                    "yaw": 0.0
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": 91.2163815155464,
+                    "y": 5.04538883652863,
+                    "yaw": 0.5924962141516859
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": 84.41951729785228,
+                    "y": 9.429959933872482,
+                    "yaw": -0.23335928128355432
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": 73.8228925915042,
+                    "y": 16.936294327587618,
+                    "yaw": -0.3808156446245001
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": 60.22897485777301,
+                    "y": 25.521760801975688,
+                    "yaw": -2.7217682696238756
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": 47.17185564058127,
+                    "y": 26.426619687560034,
+                    "yaw": -2.750810007206356
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": 28.256363496872325,
+                    "y": 33.69261614678243,
+                    "yaw": -2.88431778771379
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": 3.8669362527394355,
+                    "y": 50.37295171079526,
+                    "yaw": 1.6748441130593736
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -11.809168838021492,
+                    "y": 61.201158126581646,
+                    "yaw": 1.2968058482524292
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -21.5,
+                    "y": 67.75,
+                    "yaw": 0.0
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -21.5,
+                    "y": 67.75,
+                    "yaw": 0.0
+                }
+            ],
+            "finish_timepoint": 156.21778869628906,
+            "id": 17,
+            "name": "exstinguishFire",
+            "start_timepoint": 110.6220703125
+        },
+        {
+            "coalition": [
+                5
+            ],
+            "execution_motion_plan": [
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -18.0,
+                    "y": -65.75,
+                    "yaw": 0.0
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -18.0,
+                    "y": -65.75,
+                    "yaw": 0.0
+                }
+            ],
+            "finish_timepoint": 156.3177947998047,
+            "id": 18,
+            "name": "repairBuilding",
+            "start_timepoint": 156.21778869628906
+        },
+        {
+            "coalition": [
+                1,
+                3
+            ],
+            "execution_motion_plan": [
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": 54.5,
+                    "y": 46.75,
+                    "yaw": 0.0
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": 54.10337298654369,
+                    "y": 48.99545114209428,
+                    "yaw": 0.8277415615218282
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": 48.78238915466366,
+                    "y": 50.352424510610575,
+                    "yaw": 2.224264539572067
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": 45.42057850960819,
+                    "y": 51.07729605408923,
+                    "yaw": -2.0385078956479132
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": 8.968046552934368,
+                    "y": 61.21178585184876,
+                    "yaw": -1.73783681866223
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": 0.5232217094050782,
+                    "y": 67.91799922964947,
+                    "yaw": -1.4512623411287788
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -9.21480637411851,
+                    "y": 69.49852420608713,
+                    "yaw": -0.06755092045319833
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -21.5,
+                    "y": 67.75,
+                    "yaw": 0.0
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -21.5,
+                    "y": 67.75,
+                    "yaw": 0.0
+                }
+            ],
+            "finish_timepoint": 213.14808654785156,
+            "id": 19,
+            "name": "exstinguishFire",
+            "start_timepoint": 184.6329345703125
+        },
+        {
+            "coalition": [
+                6
+            ],
+            "execution_motion_plan": [
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": 23.5,
+                    "y": 3.75,
+                    "yaw": 0.0
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": 23.5,
+                    "y": 3.75,
+                    "yaw": 0.0
+                }
+            ],
+            "finish_timepoint": 213.24807739257813,
+            "id": 20,
+            "name": "repairBuilding",
+            "start_timepoint": 213.14808654785156
+        },
+        {
+            "coalition": [
+                6
+            ],
+            "execution_motion_plan": [
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": 30.5,
+                    "y": 1.75,
+                    "yaw": 0.0
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": 30.5,
+                    "y": 1.75,
+                    "yaw": 0.0
+                }
+            ],
+            "finish_timepoint": 218.11073303222656,
+            "id": 21,
+            "name": "repairBuilding",
+            "start_timepoint": 218.01072692871094
+        },
+        {
+            "coalition": [
+                1,
+                3
+            ],
+            "execution_motion_plan": [
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -14.5,
+                    "y": 73.75,
+                    "yaw": 0.0
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -16.0980031591112,
+                    "y": 73.21500231076865,
+                    "yaw": 2.170172676779167
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -17.911840450574132,
+                    "y": 69.39736686326427,
+                    "yaw": 1.9190455411798126
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -21.5,
+                    "y": 67.75,
+                    "yaw": 0.0
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": -21.5,
+                    "y": 67.75,
+                    "yaw": 0.0
+                }
+            ],
+            "finish_timepoint": 221.2682342529297,
+            "id": 22,
+            "name": "exstinguishFire",
+            "start_timepoint": 217.1581573486328
+        },
+        {
+            "coalition": [
+                6
+            ],
+            "execution_motion_plan": [
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": 4.5,
+                    "y": 1.75,
+                    "yaw": 0.0
+                },
+                {
+                    "configuration_type": "ompl",
+                    "goal_type": "state",
+                    "state_space_type": "se2",
+                    "x": 4.5,
+                    "y": 1.75,
+                    "yaw": 0.0
+                }
+            ],
+            "finish_timepoint": 233.12417602539063,
+            "id": 23,
+            "name": "repairBuilding",
+            "start_timepoint": 233.02418518066406
+        }
+    ]
+}
